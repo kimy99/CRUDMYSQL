@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/busqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BUSQUEDA POR CODIGO"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el código"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:background="@drawable/estiloeditex"
+        android:shadowColor="#1221E6"
+        android:shadowDx="-11"
+        android:shadowDy="0"
+        android:shadowRadius="21"
+        android:drawableStart="@drawable/ingrese"
+        android:paddingRight="100dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="25dp"
+
+        />
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"
+        android:onClick="alta"
+        android:background="@drawable/estiloguardar"
+        android:shadowColor="#1221E6"
+        android:shadowDx="-11"
+        android:shadowDy="0"
+        android:shadowRadius="21"
+
+        />
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:hint="x"
+        android:textAlignment="center"
+        android:textSize="25dp"
+
+        />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AcercaDe">
+
+
+
+    <TextView
+        android:id="@+id/tvnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="xxxxxxx"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/tvcarnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="xxxxx"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/tvedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="xxxxxx"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/tvcarre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="xxxxxx"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/imgbrendy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/brendy" />
+</LinearLayout>

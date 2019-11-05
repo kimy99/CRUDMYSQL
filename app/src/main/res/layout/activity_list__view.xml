@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".List_View">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:background="#009688">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Listado de artículos registrados"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        app:queryHint="Search"
+        app:iconifiedByDefault="false">
+
+    </androidx.appcompat.widget.SearchView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="35dp"
+        android:background="#EC60D9" />
+
+    <TextView
+        android:id="@+id/tvdestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="**** Hello *****"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+</LinearLayout>
